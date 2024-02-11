@@ -70,8 +70,8 @@ source install/setup.bash
 
 ## How to run the project
 ### Setup
-At first we have to modify a file in the locosim project in order to be able to use the gripper. To do that we have to modify the file `~/ros_ws/src/locosim/robot_control/lab_exercises/lab_palopoli/params.py`
-and change the line 32:
+At first we have to modify a file in the locosim project in order to be able to use the gripper. To do that we have to modify the file `~/ros_ws/src/locosim/robot_control/base_controllers/params.py`
+and change the line 46:
 ```PYTHON
 'gripper_sim': True, 
 ```
